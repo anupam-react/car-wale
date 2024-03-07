@@ -12,6 +12,7 @@ import {
   AccordionBody,
 } from "@material-tailwind/react";
 import { ChevronRightIcon, ChevronDownIcon } from "@heroicons/react/24/outline";
+import { Link } from "react-router-dom";
 
 function Sidebar({ isOpen }) {
   const [open, setOpen] = React.useState(0);
@@ -35,12 +36,14 @@ function Sidebar({ isOpen }) {
                 className="w-48"
               />
             </div>
+              <Link to="/dashboard">
             <ListItem>
               <ListItemPrefix>
                 <img src="./ic_round-dashboard.svg" alt="" />
               </ListItemPrefix>
-              Dashboard
+                Dashboard
             </ListItem>
+                </Link>
             <Accordion
               open={open === 1}
               icon={

@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CarCard = () => {
   return (
+     <Link to="/car-details">
     <div
       className="flex gap-4 p-4"
       style={{ backgroundColor: "#F9F9F9", borderRadius: "30px" }}
@@ -61,7 +63,8 @@ const CarCard = () => {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+      </Link>
   );
 };
 

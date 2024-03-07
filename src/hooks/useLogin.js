@@ -41,14 +41,15 @@ const useLogin = () => {
 
   const handleLogin = async (event) => {
     event.preventDefault();
-    if (!email || !password) {
-      return errorToast("Fill all the fields");
-    }
-    console.log(email, password);
-    const formData = {
-      email,
-      password,
-    };
+    // if (!email || !password) {
+    //   return errorToast("Fill all the fields");
+    // }
+    // console.log(email, password);
+    // const formData = {
+    //   email,
+    //   password,
+    // };
+    navigate("/dashboard");
     // try {
     //   const response = await axios.post(
     //     "https://blubo0qb46.execute-api.ap-south-1.amazonaws.com/dev/api/v1/admin/api/admin/login",
