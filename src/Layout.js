@@ -14,7 +14,9 @@ const Layout = ({ children }) => {
       <Sidebar isOpen={isOpen} />
       <div className="flex-1">
         <Navbar handleOpen={handleOpen} />
-        <div className="m-4">{children}</div>
+        <div className="p-4" style={{ backgroundColor: "#F9F9F9" }}>
+          {children}
+        </div>
       </div>
     </div>
   );

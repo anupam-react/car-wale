@@ -70,42 +70,54 @@ function Sidebar({ isOpen }) {
               </ListItem>
               <AccordionBody className="py-1">
                 <List className="p-0">
+                  <Link to="/all-cars">
                   <ListItem>
                     <ListItemPrefix>
                       <img src="./Line 5.svg" alt="" />
                     </ListItemPrefix>
                     All Cars Listing
-                  </ListItem>
+                    </ListItem>
+                  </Link>
+                    <Link to="/popular-cars">
                   <ListItem>
                     <ListItemPrefix>
                       <img src="./Line 5.svg" alt="" />
                     </ListItemPrefix>
                     Popular Cars
-                  </ListItem>
+                    </ListItem>
+                  </Link>
+                   <Link to="/newly-cars">
                   <ListItem>
                     <ListItemPrefix>
                       <img src="./Line 5.svg" alt="" />
                     </ListItemPrefix>
                     Newly Launched Cars
-                  </ListItem>
+                    </ListItem>
+                  </Link>
+                   <Link to="/upcoming-cars">
                   <ListItem>
                     <ListItemPrefix>
                       <img src="./Line 5.svg" alt="" />
                     </ListItemPrefix>
                     Upcoming Cars
-                  </ListItem>
+                    </ListItem>
+                  </Link>
+                  <Link to="/bestsell-cars">
                   <ListItem>
                     <ListItemPrefix>
                       <img src="./Line 5.svg" alt="" />
                     </ListItemPrefix>
                     Best Seller Cars
-                  </ListItem>
+                    </ListItem>
+                  </Link>
+                   <Link to="/highrate-cars">
                   <ListItem>
                     <ListItemPrefix>
                       <img src="./Line 5.svg" alt="" />
                     </ListItemPrefix>
                     Top Highly Rated Cars
                   </ListItem>
+                  </Link>
                 </List>
               </AccordionBody>
             </Accordion>

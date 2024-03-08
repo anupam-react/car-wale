@@ -26,7 +26,7 @@ const [open, setOpen] = useState(false);
           Get Car
         </button>
       </div>
-      <div className="shadow-xl shadow-blue-gray-900/5 px-4 py-6 mt-4">
+      <div className="shadow-xl bg-white rounded-xl shadow-blue-gray-900/5 px-4 py-6 mt-4">
         <div className="flex justify-between">
           <p className="font-semibold text-2xl">Available Cars</p>
           <div className="flex gap-4">
